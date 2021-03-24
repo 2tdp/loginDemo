@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/ivGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/group_40" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:alpha="0.87"
+        android:lineHeight="18dp"
+        android:text="Quản lý danh mục món ăn hiệu quả"
+        android:textFontWeight="700"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:alpha="0.54"
+        android:lineHeight="15dp"
+        android:text="Dễ dàng tạo thực đơn, phân loại món ăn một \n\t\t\t\tcách linh động, nhanh chóng"
+        android:textFontWeight="400"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
